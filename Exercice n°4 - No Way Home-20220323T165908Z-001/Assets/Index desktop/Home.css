@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url("../Far-From\ Homecoming\ Updated.otf");
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #b11313;
+    padding: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+.rightbox{
+    justify-content:space-between;
+}
+.titre{
+    padding: 100px;
+    padding-top: 300px;
+    background: url(../Illustration/img1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 890px;
+}
+.titre h1{
+    font-family: 'Spiderman';
+}
+.section2{
+    background-color: #b11313;
+    color: #ffffff;
+    padding: 5%;
+}
+.section2 h1{
+    font-family: 'Spiderman'; 
+}
+.bouton-lien a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Peter{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    background-color: #114c92;
+    display: flex;
+    color: #ffffff;
+}
+.droite{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.droite h1{
+    font-family: 'Spiderman';
+}
+.section4{
+    display: flex;
+    background-color: #b11313;
+    color: #ffffff;
+}
+.leftbox h2{
+    font-family: 'Spiderman';
+}
+footer{
+    background-color: #000000;
+    padding: 5%;
+}
+.liens a{
+    padding: 18px 30px;
+    color: white;
+}
+.liens{
+    display: flex;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input {
+    padding: 6px 15px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+}
+button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 6px 15px;
+    border:1px solid #ffffff;
+     color: #ffffff;
+    border-radius: 50px;
+    background: inherit;
+}

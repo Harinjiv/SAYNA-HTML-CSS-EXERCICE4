@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url("../Far-From\ Homecoming\ Updated.otf");
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #b11313;
+    padding: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+.S1{
+    background-color: #F1C530;
+}
+.la-toile{
+    padding: 100px;
+    padding-top: 200px;
+}
+.la-toile h1{
+    font-family: 'Spiderman';
+}
+.photo1{
+    margin-left: 70%;
+    transform: scaleX(-1);
+}
+.S2{
+    background-color: #B11313;
+    display: flex;
+}
+.la-petite-antenne h1{
+    font-family: 'Spiderman';
+}
+.la-petite-antenne{
+    padding: 100px;
+}
+.photo2{
+    border-radius: 20%;
+}
+.information{
+    justify-content: space-around;
+    margin-left: 40%;
+}
+.S3{
+    background-color: #114C92;
+}
+.titre h1{
+    font-family: 'Spiderman';
+}
+.texte{
+    display: flex;
+    justify-content: space-around;
+}
+.bouton{
+    padding: 18px 30px;
+}
+footer{
+    background-color: black;
+}
+.liens a{
+    padding: 18px 30px;
+    color: white;
+}
+.liens{
+    display: flex;
+    text-align: center;
+}
+

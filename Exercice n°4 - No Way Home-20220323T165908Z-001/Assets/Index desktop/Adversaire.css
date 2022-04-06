@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url("../Far-From\ Homecoming\ Updated.otf");
+}
+h1{
+    font-family: 'Spiderman';
+    font-size: 50px;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #F1C530;
+    padding: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+.super-vilains{
+    padding: 300px 0 100px 200px;
+    color: #ffffff;
+    background: url(../Illustration/img7.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+.section2{
+    background-color: #F1C530;
+}
+.méchant1{
+    display: flex;
+    justify-content: space-around;
+}
+.texte{
+    width: 324px;
+    border: 8px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+    margin-top: -10px;
+    line-height: 25px;
+}
+.méchant2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.méchant3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.méchant4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: black;
+}
+.liens a{
+    padding: 18px 30px;
+    color: white;
+}
+.liens{
+    display: flex;
+    text-align: center;
+}

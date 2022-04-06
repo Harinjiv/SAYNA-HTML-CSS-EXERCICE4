@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Spiderman';
+    src: url("../Far-From\ Homecoming\ Updated.otf");
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #b11313;
+    padding: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+.heros{
+    color: #ffffff;
+    background: url(../Illustration/img35.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+footer{
+    background-color: black;
+    padding: 5%;
+}
+.liens a{
+    padding: 18px 30px;
+    color: white;
+}
+.liens{
+    display: flex;
+    text-align: center;
+}
